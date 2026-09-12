@@ -15,6 +15,7 @@
 	"assist": {
 		"actions": {
 			"source": {
+				"useSortedAttributes": "on",
 				"useSortedProperties": "on"
 			}
 		}
