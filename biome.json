@@ -19,5 +19,10 @@
 				"useSortedProperties": "on"
 			}
 		}
+	},
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
 	}
 }
