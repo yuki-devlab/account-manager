@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 body {
-	background-color: var(--color-slate-100);
-	color: var(--color-slate-800);
+	min-height: 100vh;
 	font-family:
 		var(--font-inter), var(--font-noto-sans-jp), system-ui, sans-serif;
+	color: var(--color-slate-800);
+	background-color: var(--color-slate-100);
 }
