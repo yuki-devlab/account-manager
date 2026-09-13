@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { defineConfig } from "drizzle-kit";
 
 const url = process.env.TURSO_DATABASE_URL;
