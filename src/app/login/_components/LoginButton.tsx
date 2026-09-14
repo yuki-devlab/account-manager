@@ -35,14 +35,14 @@ export default function LoginButton() {
 
 	return (
 		<button
+			type="button"
+			disabled={isLoading}
 			className={cn(
 				"flex h-14 items-center gap-2 rounded-full bg-slate-800 px-7 transition-all",
 				"enabled:hover:bg-slate-700",
 				"disabled:cursor-not-allowed disabled:opacity-50",
 			)}
-			disabled={isLoading}
 			onClick={handleLogin}
-			type="button"
 		>
 			{isLoading ? (
 				<div className="h-5 w-5 animate-spin rounded-full border-[2.5px] border-white/50 border-t-white" />
