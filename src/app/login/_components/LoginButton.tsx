@@ -38,7 +38,7 @@ export default function LoginButton() {
 			type="button"
 			disabled={isLoading}
 			className={cn(
-				"flex h-14 items-center gap-2 rounded-full bg-slate-800 px-7 transition-all",
+				"flex h-14 items-center gap-2 rounded-full bg-slate-800 px-7 transition-colors",
 				"enabled:hover:bg-slate-700",
 				"disabled:cursor-not-allowed disabled:opacity-50",
 			)}
