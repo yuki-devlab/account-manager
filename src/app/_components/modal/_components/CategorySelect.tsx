@@ -12,7 +12,7 @@ export default function CategorySelect({ isAdding }: CategorySelectProps) {
 			<Select.Trigger
 				id="category"
 				className={cn(
-					"group flex h-14 flex-1 items-center justify-between rounded-xl border border-slate-300 bg-white px-4 text-slate-400 outline-none",
+					"group flex h-14 flex-1 items-center justify-between rounded-xl border border-slate-300 bg-white px-4 text-slate-500 outline-none",
 					"data-[state=open]:border-sky-500 data-[state=open]:ring-2 data-[state=open]:ring-sky-200",
 					"focus-visible:border-sky-500 focus-visible:ring-2 focus-visible:ring-sky-200",
 				)}
