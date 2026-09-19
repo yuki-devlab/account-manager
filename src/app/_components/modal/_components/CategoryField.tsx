@@ -26,8 +26,7 @@ export default function CategoryField() {
 			{isAdding && (
 				<input
 					type="text"
-					id="category"
-					name="category"
+					name="newCategory"
 					placeholder="カテゴリーを入力してください"
 					required
 					className={cn(
