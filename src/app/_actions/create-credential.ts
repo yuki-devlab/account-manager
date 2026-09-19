@@ -13,11 +13,6 @@ export type CreateCredentialState = {
 	message: string;
 };
 
-export const initialCreateCredentialState: CreateCredentialState = {
-	status: "idle",
-	message: "",
-};
-
 export async function createCredential(
 	_previousState: CreateCredentialState,
 	formData: FormData,
