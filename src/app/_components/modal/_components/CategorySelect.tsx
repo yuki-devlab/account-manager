@@ -8,7 +8,11 @@ type CategorySelectProps = {
 
 export default function CategorySelect({ isAdding }: CategorySelectProps) {
 	return (
-		<Select.Root name="category" defaultValue="unselected" required={!isAdding}>
+		<Select.Root
+			name="selectCategory"
+			defaultValue="unselected"
+			required={!isAdding}
+		>
 			<Select.Trigger
 				id="category"
 				className={cn(
