@@ -4,8 +4,8 @@ export default function GoogleIcon(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg
 			aria-hidden="true"
-			viewBox="0 0 533.5 544.3"
 			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 533.5 544.3"
 			{...props}
 		>
 			<path
