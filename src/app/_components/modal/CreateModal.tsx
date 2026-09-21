@@ -86,7 +86,7 @@ export default function CreateModal({ open, onOpenChange }: CreateModalProps) {
 						"md:w-auto",
 					)}
 				>
-					<Dialog.Title className="font-semibold text-box-trim text-xl">
+					<Dialog.Title className="font-semibold text-box-trim-cap text-xl">
 						新規作成
 					</Dialog.Title>
 					<hr className="w-full border-slate-200" />
