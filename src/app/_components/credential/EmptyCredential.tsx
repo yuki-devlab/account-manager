@@ -7,10 +7,10 @@ export default function EmptyCredential() {
 			<EmptyBoxIcon height={200} />
 			<div className="flex flex-col items-center gap-8">
 				<div className="flex flex-col items-center gap-6">
-					<h1 className="text-center font-semibold text-2xl text-box-trim">
+					<h1 className="text-center font-semibold text-2xl text-box-trim-cap">
 						アカウント情報が登録されていません
 					</h1>
-					<p className="text-center text-box-trim text-slate-500">
+					<p className="text-center text-box-trim-cap text-slate-500">
 						アカウント情報を追加して、いつでも確認できるようにしましょう
 					</p>
 				</div>
