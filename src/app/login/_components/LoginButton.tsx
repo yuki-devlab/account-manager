@@ -49,7 +49,7 @@ export default function LoginButton() {
 			) : (
 				<GoogleIcon height={20} />
 			)}
-			<span className="font-semibold text-box-trim text-white">
+			<span className="font-semibold text-box-trim-cap text-white">
 				Googleでログイン
 			</span>
 		</button>
