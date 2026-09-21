@@ -19,7 +19,7 @@ export default function AddButton() {
 				onClick={() => setIsModalOpen(true)}
 			>
 				<Plus size={20} />
-				<span className="font-semibold text-box-trim">追加する</span>
+				<span className="font-semibold text-box-trim-cap">追加する</span>
 			</button>
 			<CreateModal open={isModalOpen} onOpenChange={setIsModalOpen} />
 		</>
