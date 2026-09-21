@@ -18,7 +18,7 @@ export default function AddButton({ isPending }: AddButtonProps) {
 			{isPending && (
 				<div className="h-4 w-4 animate-spin rounded-full border-2 border-white/50 border-t-white" />
 			)}
-			<span className="font-semibold text-box-trim text-white">
+			<span className="font-semibold text-box-trim-cap text-white">
 				{isPending ? "追加中…" : "追加する"}
 			</span>
 		</button>
